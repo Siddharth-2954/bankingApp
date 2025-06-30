@@ -1,0 +1,61 @@
+# Ignore target directory
+/target/
+
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse IDE project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans IDE files
+/nbproject/private/
+
+# Logs
+*.log
+/logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Spring Boot properties and environment files
+*.env
+*.properties
+!src/main/resources/application*.properties # Allow specific application properties
+application.yml
+application-*.yml
+
+# Secrets
+/secrets/
+*.key
+*.pem
+*.crt
+
+# Ignore build tools cache
+.gradle/
+build/
+*.class
+
+# Ignore Node.js files if using frontend in the project
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Docker files
+docker-compose.override.yml
+*.war
+*.jar
