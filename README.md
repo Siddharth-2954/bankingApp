@@ -2,6 +2,8 @@
 
 # **Banking Application**
 
+[![Watch the video]](https://raw.githubusercontent.com/Siddharth-2954/bankingApp/master/BankingApplicationFrontend/src/assets/video.mp4)
+
 A secure and intuitive platform for managing personal finances.
 
 ---
